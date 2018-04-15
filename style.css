@@ -1,0 +1,92 @@
+/* Configuração do header */
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: indigo solid 1px;
+    height: 70px;
+    width: 1333px;;
+}
+img#andasp-logo{
+    margin: 0px 15px;
+    padding: 0px;
+    
+}
+a#andasp-logo{
+    margin: 0px;
+    padding: 0px;
+    height: 63px;
+}
+nav#menu{
+    margin: 0px 15px;
+    padding: 0px;
+}
+ul#menu{
+    margin: auto;
+    list-style: none;
+    padding: 0px;
+}
+li#acesse{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    margin: auto;
+}
+li#acesse:hover{
+    background-color: black;
+    color: white;
+    transition-delay: 0.1s;
+}
+
+/* Conficuração da section */
+div#empresas{
+    display: flex;
+    height: 100px;
+    width: 1333px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px slateblue;
+    position: absolute;
+    top: 500px;
+}
+div#empresas img#sptrans{
+    width: 75%;
+    height: 75%;
+}
+
+/*Formatação do texto*/
+div#info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+div#info h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+    margin: 10px 0px 0px 10px;
+    padding: 0px;
+    width: auto;
+    
+}
+div#info p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0px 0px 10px;
+    padding: 0px;
+}
+div.dropdown{
+    display: none;
+    
+}
+div#info h1:hover{
+    background: grey;
+    transition-delay: 0.1s;
+}
+.texto:hover .dropdown{
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
