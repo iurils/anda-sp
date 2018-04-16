@@ -1,11 +1,10 @@
 /* Configuração do header */
-#cabecalho{
+header#cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: indigo solid 1px;
     height: 70px;
-    width: 1333px;;
 }
 img#andasp-logo{
     margin: 0px 15px;
@@ -43,13 +42,13 @@ li#acesse:hover{
 /* Conficuração da section */
 div#empresas{
     display: flex;
-    height: 100px;
-    width: 1333px;
-    justify-content: space-between;
+    height: 70px;
+    width: auto;
+    justify-content: space-around;
     align-items: center;
     border: solid 1px slateblue;
-    position: absolute;
-    top: 500px;
+    position: relative;
+    top: 430px;
 }
 div#empresas img#sptrans{
     width: 75%;
@@ -63,6 +62,8 @@ div#info{
     width: 40%;
     margin: 0px;
     padding: 0px;
+    position: absolute;
+    top: 600px;
     
 }
 div#info h1{
@@ -89,4 +90,32 @@ div#info h1:hover{
 .texto:hover .dropdown{
     display: block;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*Configuração do aside*/
+
+div#aside{
+    display: flex;
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+}
+div#aside img#google{
+    position: absolute;
+    top: 265px;
+    right: 130px;
+    padding-right: 5px;
+}
+div#aside img#apple{
+    position: absolute;
+    top: 265px;
+    left: 130px;
+    padding-left: 5px;
+}
+
+/*Configuração do rodapé*/
+footer{
+    clear: both;
+    text-align: center;
+    border: solid 1px crimson;
 }
